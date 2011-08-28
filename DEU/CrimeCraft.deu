@@ -10,29 +10,29 @@ ConnectingToLobbyMessage=Laden...
 ConnectingToInstanceMessage=Laden...
 
 [CCBaseController]
-ServerNotRespondingMsg=Verbindung zum Server kann nicht hergestellt werden
+ServerNotRespondingMsg=Verbindung zum Server konnte nicht hergestellt werden
 ServerNotRespondingTitle=Zeitüberschreitung
-ConnectionLostMsg=Internetverbindung verloren. Bitte prüfe deine Verbindung.
-ConnectionLostTitle=Internetverbindung verloren
+ConnectionLostMsg=Verbindung zum Server verloren. Bitte prüfe deine Verbindung.
+ConnectionLostTitle=Verbindung verloren
 BleedOutMoviesMessage=To watch BleedOut videos for the next episodes you will need to download them (size is about 750m). If you choose yes, the game will exit and your download will begin now.
 LightVersionMsg=To access this location you need to have full game client version. You can download it with CrimeCraft launcher. When download is finished game needs to be restarted.
 
 [CCLobbyController]
-TournamentHaventPassMsg=Du hast im Moment kein Turnierticket, kannst dir aber eins kaufen
+TournamentHaventPassMsg=Du hast im Moment kein Turnierticket, kannst dir aber eines kaufen.
 BuyTournamentPassQuestion=Du kannst dir nun ein Turnierticket kaufen. Es kostet dich %PassCost%
 SubscribedNotTournamentInstanceCaption=%InstanceTitle% ist kein Turnier Kampfplatz 
 
 [FisrtLoadingScreen]
 Message[0]=Sei bereit. Du befindest dich nun in deinem ersten Kampf. Die Spieler mit dem roten Namen über den Köpfen sind deine Gegner und wollen dich Tod sehen. - Töte sie bevor sie dich töten.
 Message[1]=-  Benutzte W, A, S und D um mit deinem Charakter zu laufen
-Message[2]=-  Drücke die Linke Maustaste um deine ausgerüstete Waffe abzufeuern.
-Message[3]=-  Drücke R um die Waffe nachzuladen
-Message[4]=-  Drücke die Rechte Maustaste um mit deiner ausgerüsteten Waffe zu zielen.
-Message[5]=-  Drücke die Leertaste um eine Ausweichrolle durchzuführen
-Message[6]=-  Halte die linke Shift-Taste gedrückt um zu Sprinten
-Message[7]=-  Halte die linke Strg-Taste gedrückt um in die Hocke zu gehen und zu kriechen
-Message[8]=-  Drücke F1 um eine Splittergranate zu werfen
-Message[9]=-  Drücke F2 um dein Tarnsystem zu aktivieren
+Message[2]=-  Drücke die linke Maustaste um deine ausgerüstete Waffe abzufeuern.
+Message[3]=-  Drücke "R" um die Waffe nachzuladen
+Message[4]=-  Drücke die rechte Maustaste um mit deiner ausgerüsteten Waffe zu zielen.
+Message[5]=-  Drücke die "Leertaste" um eine Ausweichrolle durchzuführen.
+Message[6]=-  Halte die linke "Shift"-Taste gedrückt um zu Sprinten.
+Message[7]=-  Halte die linke "Strg"-Taste gedrückt um in die Hocke zu gehen und zu kriechen.
+Message[8]=-  Drücke "F1" um eine Splittergranate zu werfen.
+Message[9]=-  Drücke "F2" um dein Tarnsystem zu aktivieren.
 
 
 [TutorialSystem]
@@ -84,7 +84,7 @@ Q_OpenAbilities=Klicke hier um das Skill Menü zu öffnen
 Q_OpenCraft=Klicke hier um das Crafting Menü zu öffnen
 Q_OpenMissions=Klicke hier um das Missions Menü zu öffnen
 Q_OpenMap=Klicke hier um die Karte zu öffnen
-Q_OpenQuickJoin=Klicke hier um das "Schnelle Spiel" Menü zu öffnen
+Q_OpenQuickJoin=Klicke hier um das "Schnelles Spiel" Menü zu öffnen
 Q_OpenRepair=Klicke hier um den Reparaturservice zu öffnen
 I_Intro=Das wird in deinem Rucksack gelagert.
 I_SellItem=Wähle den Auslöser
@@ -93,7 +93,7 @@ I_EquipDrug=Wähle die Verstärkung
 I_EquipAUG=Wähle die verbesserte AUG
 I_EquipBullets=Wähle die Kugeln
 I_Gold=Dein aktuelles Geld
-I_Skill=Du hast einen Skill-Punkt für den Levelaufstieg bekommen
+I_Skill=Du hast einen Skill-Punkt für den Levelaufstieg erhalten
 I_SkillSpent=Mit jedem neuen Level bekommst du neue Skill-Punkte
 I_CustomizeWeapon=Rechts Klick auf die Pistole um sie anzupassen
 I_CustomizeAttach=Klicke hier auf den Aufsatz
@@ -104,10 +104,10 @@ S_Mission_Reward=Die Belohnung
 S_Mission_Scroll=Scrolle um mehr Text zu sehen
 S_Instance_Inst=Wähle den Kampf
 S_Instance_Fight=Klicke hier um den Kampf zu beginnen
-S_Skill_Skill=Wähle einen Skill
-S_Skill_Skill2=Die Nummer in der Ecke zeigt an, wie viele Punkte du für den Skill benötigst.
-S_Skill_Learn=Klicke hier um den Skill zu lernen.
-S_Skill_Learn2=Lerne den ausgewählten Skill
+S_Skill_Skill=Wähle eine Fähigkeit
+S_Skill_Skill2=Die Nummer in der Ecke zeigt an, wie viele Punkte du für die Fähigkeit benötigst.
+S_Skill_Learn=Klicke hier um die Fähigkeit zu erlernen.
+S_Skill_Learn2=Lerne die ausgewählte Fähigkeit
 S_Trade_Item=Wähle das Item
 S_Trade_Buy=Klicke hier um es zu kaufen
 S_Trade_Sell=Ziehe ein Item hier hin, um es zu verkaufen
@@ -126,10 +126,10 @@ S_Jobs_Accept=Akzeptiere ihn
 S_Jobs_SelectDone=Wähle einen beendeten Job
 S_Jobs_Complete=Beende ihn
 S_Jobs_More=Du kannst mehrere Jobs mit einmal auswählen
-S_Jobs_Close=Klicke hier oder drücke tab um zu beenden
-S_Craft_ProffSelect=Wähle Level 1 von dem Beruf
+S_Jobs_Close=Klicke hier oder drücke "TAB" um zu beenden
+S_Craft_ProffSelect=Wähle Level 1 des Berufes.
 S_Craft_ProffLearn=Lerne es
-S_Craft_RecipeSelect=Whäle das Rezept
+S_Craft_RecipeSelect=Wähle das Rezept
 S_Craft_RecipeLearn=Lerne es
 S_Craft_RecipeRed=Trainiere deine Fähigkeiten um rote Rezepte freizuschalten
 C_Character_Weapon=Lasse es hier fallen
@@ -138,11 +138,11 @@ C_Character_AUG=Lasse es hier fallen
 C_Character_Bullets=Lasse es hier fallen
 C_Character_SlotSMG=Slot für die Pistolen und SMGs
 C_Character_SlotAR=Slot für die Schrotflinten und Sturmgewehre
-C_Skills_Skill=Wähle den Skill den du gelernt hast
-C_Skill_Skill2=Wähle den Skill den du gelernt hast
-C_Skill_Skill3=Wähle einen Skill
-C_Skill_Skill4=Klicke hier um ihn zu lernen
-C_Skill_Skill5=Wähle den Skill den du lernen möchtest
+C_Skills_Skill=Wähle die Fähigkeit die du gelernt hast
+C_Skill_Skill2=Wähle die Fähigkeit die du gelernt hast
+C_Skill_Skill3=Wähle eine Fähigkeit
+C_Skill_Skill4=Klicke hier um die Fähigkeit zu lernen
+C_Skill_Skill5=Wähle die Fähigkeit die du lernen möchtest
 C_Skills_Equip=Lasse ihn hier fallen, um ihn auszurüsten
 C_Skills_Equip2=Lasse es hier fallen
 C_Craft_Recipe=Wähle das Rezept
@@ -152,7 +152,7 @@ C_QuickJoin_Join=Klicke hier um dem Kampf beizutreten
 C_Map_Help=Klicke hier um mehr Hilfsinformationen zu erhalten
 C_Customize=Lasse es hier fallen
 C_Craft_Select=Wähle ein Rezept
-C_Craft_Ingredients=Stelle sicher das du die korrekten Zutaten benutzt
+C_Craft_Ingredients=Stelle sicher, dass du die korrekten Zutaten benutzt
 C_Craft_Craft=Fertige das Item an
 C_Craft_Ingredients2=Überprüfe welche Zutaten du kaufen musst
 
@@ -170,7 +170,7 @@ PU_005=Rede mit Sgt. Morris und schließe dich der Partie an, um am Kampf teilzu
 PU_006=Berichte Sgt. Morris um die Mission zu beenden.
 PU_007=Gehe zu dem Charakter der durch ein <c=ffbe00>Häkchen<c=ffffff> auf deiner Karte markiert ist. Drücke <c=ffbe00>Tab<c=ffffff> um das Menü zu öffnen und zu schließen.
 PU_008=Gehe zu dem Charakter der durch ein <c=ffbe00>Häkchen<c=ffffff> auf deiner Minimap markiert ist. Drücke <c=ffbe00>M<c=ffffff> um die große Karte zu öffnen.
-PU_009=Um einen Skill zu lernen interagiere einfach mit einem Skilltrainer (Simple Simon) und wähle dann den Skill aus den du lernen möchtest.
+PU_009=Um eine Fähigkeit zu erlernen interagiere einfach mit einem Skilltrainer (Simple Simon) und wähle dann die Fähigkeit aus die du lernen möchtest.
 PU_009a=Drücke <c=ffbe00>Tab<c=ffffff> und öffne das <c=ffbe00>Skill Menü<c=ffffff> um einen Skill zu lernen.
 PU_010=Drücke <c=ffbe00>Tab<c=ffffff> und öffne das <c=ffbe00>Skill Menü<c=ffffff> um dich mit dem gelernten Skill auszurüsten.
 PU_011=Jetzt wähle den Skill den du grade gelernt hast aus und ziehe in auf einen verfügbaren Aktion Slot.
